@@ -1,0 +1,72 @@
+body{
+    background: linear-gradient(to right, #787ff6, #4adede);
+}
+
+.title{
+    text-align: center;
+    position: relative;
+    top: 5%;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.header{
+    background: white;
+    width: 400px;
+    height: 450px;
+    margin: 200px auto;
+    border-radius: 10px;
+}
+
+.form{
+    text-align: center;
+}
+
+.user-form{
+    margin: 40px 0;
+}
+
+.title-form{
+    position: relative;
+    left: 2%;
+    text-align: left;
+    margin-left: 30px;
+    margin-top: 10px;
+    font-size: 22px;
+}
+
+.input-form{
+    outline: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 10px;
+    border-color: #cdcdcd;
+    position: relative;
+    width: 80%;
+    margin-top: 10px;
+    text-align: left;
+    font-size: 20px;
+}
+
+.error{
+    text-align: center;
+    margin-top: 15px;
+}
+
+.login-button{
+    text-align: center;
+    color:white;
+    width: 300px;
+    height: 40px;
+    margin-top: 50px;
+    position: relative;
+    left: 12%;
+    background: linear-gradient(to right, #787ff6, #4adede);
+    border: none;
+    border-radius: 20px;
+}
+
+.login-button:hover{
+    opacity: 0.6;
+}
